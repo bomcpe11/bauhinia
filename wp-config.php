@@ -68,8 +68,8 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
-define('WP_HOME','http://localhost/newsms');
-define('WP_SITEURL','http://localhost/newsms');
+define('WP_HOME','http://localhost/bauhinia');
+define('WP_SITEURL','http://localhost/bauhinia');
 
 /* That's all, stop editing! Happy blogging. */
 
