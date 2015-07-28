@@ -2,9 +2,10 @@
 <div class="annoucement">
 	    	
 			<?php
-			$page = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			$pagenum = get_query_var('paged',1);
+			
 			?>
-			<?php query_posts("cat=7&posts_per_page=1&paged='.$page");?>
+			<?php query_posts("cat=7&posts_per_page=1&paged=$pagenum");?>
 			
 			<?php if (have_posts()) : ?>
 			<table>
