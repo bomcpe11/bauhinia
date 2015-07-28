@@ -526,6 +526,7 @@ div.left-menu aside.blog-owner .staff-image img{
 		)
 	);
 ?>
+
 <!--CONTANT START-->
 	<div style="clear: both "></div>
 	<div class="main-content" style="padding:20px 0;background-color:#fff;">
