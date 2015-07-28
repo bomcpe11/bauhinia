@@ -20,10 +20,10 @@
 // define('DB_PASSWORD', '1234');
 // define('DB_HOST', 'localhost');
 
-define('DB_NAME', 'irh9535_sms');
-define('DB_USER', 'irh9535_sms');
-define('DB_PASSWORD', 'sms_2013');
-define('DB_HOST', '103.233.192.216');
+define('DB_NAME', 'bauhinia');
+define('DB_USER', 'bauhinia');
+define('DB_PASSWORD', 'Bauh1234');
+define('DB_HOST', '103.13.28.239');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
