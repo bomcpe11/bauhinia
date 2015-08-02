@@ -12,7 +12,15 @@
 			<?php  while (have_posts()) : the_post(); ?>
 			
 				<tr>
-					<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+					<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+					<small><?php the_time('F jS, Y'); ?> by <?php the_author_posts_link(); ?></small>
+					<?php 
+					$content = get_the_content();
+					echo '<br />';
+					$content = strip_tags($content);
+					echo substr($content, 0, 100);
+					?>
+					
 				</tr>
 			<?php endwhile; ?>
 			</table>
