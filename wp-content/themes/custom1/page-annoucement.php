@@ -21,7 +21,7 @@
 					$content = strip_tags($content);
 					echo substr($content, 0, 100);
 					 ?>
-					<a href='<?php the_permalink() ?>'>...></a>
+					<div class="read-more"><a href='<?php the_permalink() ?>'>Read More>>></a></div>
 					
 				</div>
 			<?php endwhile; ?>
