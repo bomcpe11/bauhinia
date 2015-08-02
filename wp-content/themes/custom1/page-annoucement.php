@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+
+
 <div class="annoucement">
 	    	
 			<?php
@@ -11,14 +13,14 @@
 			
 			<?php  while (have_posts()) : the_post(); ?>
 			
-				<div>
+				<div class="boxAnnoucement">
 					<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
 					
 					<?php 
 					$content = get_the_content();
 					$content = strip_tags($content);
 					echo substr($content, 0, 100);
-					?>
+					 ?>
 					<a href='<?php the_permalink() ?>'>...></a>
 					
 				</div>

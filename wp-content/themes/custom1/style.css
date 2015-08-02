@@ -1,0 +1,10 @@
+.boxAnnoucement {
+  float: left;
+  width: 300px;
+  height: 150px;
+  margin: 1em;
+  word-wrap: break-word;
+}
+.after-boxAnnoucement {
+  clear: left;
+}

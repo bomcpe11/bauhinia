@@ -22,7 +22,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
-
+	<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" media="screen">
 	<link href="<?php echo get_template_directory_uri(); ?>/css/style.css" rel="stylesheet" media="screen">
 	<link href="<?php echo get_template_directory_uri(); ?>/css/color.css" rel="stylesheet" media="screen">
 	<link href="<?php echo get_template_directory_uri(); ?>/css/transitions.css" rel="stylesheet" media="screen">
