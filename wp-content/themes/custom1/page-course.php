@@ -5,7 +5,7 @@
 			$pagenum = get_query_var('paged',1);
 			
 			?>
-			<?php query_posts("cat=7&posts_per_page=10&paged=$pagenum");?>
+			<?php query_posts("cat=8&posts_per_page=10&paged=$pagenum");?>
 			
 			<?php if (have_posts()) : ?>
 			<table>
