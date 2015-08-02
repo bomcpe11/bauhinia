@@ -8,11 +8,11 @@
 			<?php query_posts("cat=7&posts_per_page=5&paged=$pagenum");?>
 			
 			<?php if (have_posts()) : ?>
-			<table>
+			
 			<?php  while (have_posts()) : the_post(); ?>
 			
-				<tr>
-					<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a> <small><?php the_time('F jS, Y'); ?> by <?php the_author_posts_link(); ?></small></h3>
+				<div>
+					<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
 					
 					<?php 
 					$content = get_the_content();
@@ -21,9 +21,8 @@
 					?>
 					<a href='<?php the_permalink() ?>'>...></a>
 					
-				</tr>
+				</div>
 			<?php endwhile; ?>
-			</table>
 		<p><?php next_posts_link(); ?></p>
 	<p><?php previous_posts_link(); ?></p>
 			<?php else : ?>
