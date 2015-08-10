@@ -2,6 +2,7 @@
 <div class="annoucementhome">
 	    	<?php 
     echo do_shortcode("[metaslider id=147]"); 
+	 echo do_shortcode("[nggallery id=1]");
 ?>
 
 			<?php query_posts("cat=7&posts_per_page=5");?>
