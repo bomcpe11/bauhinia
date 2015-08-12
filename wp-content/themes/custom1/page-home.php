@@ -1,9 +1,10 @@
 <?php get_header(); ?>
 <div class="annoucementhome">
-	    	<?php 
-    echo do_shortcode("[metaslider id=147]"); 
-	 echo do_shortcode("[nggallery id=1]");
+	    	<?php
+	 echo do_shortcode("[album id=0 max=1]");
+		 
 ?>
+
 
 			<?php query_posts("cat=7&posts_per_page=5");?>
 			
