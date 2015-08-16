@@ -24,3 +24,82 @@
   /* "transparent" only works here because == rgba(0,0,0,0) */
   
 }
+
+.teachers .text{
+	text-align:center;
+}
+
+.site-main .sec-header{
+	text-align:center;
+}
+
+.site-main .sec-header span.bullet {
+    height: 10px;
+    width: 10px;
+    background-color: #aaaaaa;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+section{
+	padding-bottom: 20px;
+}
+
+/* Start Other menu Setting*/
+section.othermenu ul {
+    list-style-type: none;
+/*     width: 500px; */
+    margin: auto;
+    padding: 0;
+}
+section.othermenu ul li {
+    float: left;
+    display: block;
+    width: 120px;
+    height: 180px;
+}
+section.othermenu{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+section.othermenu a span.icon {
+	width: 100px;
+    height: 100px;
+	-moz-box-shadow: 0px 1px 6px -2px #73d3ff;
+	-webkit-box-shadow: 0px 1px 6px -2px #73d3ff;
+	box-shadow: 0px 1px 6px -2px #73d3ff;
+	background-color:transparent;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#58c0ff;
+/* 	font-family:Arial; */
+	font-size:67px;
+	font-weight:bold;
+	padding:17px 10px 2px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+section.othermenu span.icon:hover {
+	background-color:#58c0ff;
+/* 	font-size:1.2em; */
+	color:white;
+/* 	color:black; */
+}
+section.othermenu span.icon:active {
+	position:relative;
+	top:1px;
+}
+section.othermenu a div.topic {
+	padding: 5px 8px;
+	
+}
+section.othermenu a:hover {
+	color:black;
+	font-weight:bold;
+}
+/* End of Other menu Setting*/

@@ -96,5 +96,5 @@
     <!--BANNER END-->
     
 </div>
-
+		<div style="clear:both;"></div>
 		<div id="main" class="site-main">
