@@ -323,7 +323,7 @@
 </section>
 <!--OUR TEACHERS SECTION END-->
 
-<section class="downloadhome">
+<section class="galleryhome">
 	<div class="container">
 		<!--SECTION HEADER START-->
 		<div class="sec-header">
@@ -333,6 +333,22 @@
 		<!--SECTION HEADER END-->
 		<div class="row">
 			<?php echo do_shortcode ( "[album id=0 max=1]" );?>
+		</div>
+	</div>
+</section>
+
+<section class="otherlinkhome">
+	<div class="container">
+		<!--SECTION HEADER START-->
+		<div class="sec-header">
+			<h2><?php echo (qtranxf_getLanguage()=='th'?'ลิ้งค์อื่นๆ':'Other links'); ?></h2>
+			<span class="bullet"></span> <span class="bullet"></span> <span class="bullet"></span>
+		</div>
+		<!--SECTION HEADER END-->
+		<div class="row">
+			<div>
+				<h4><a href="https://docs.google.com/forms/d/18nGBa2NRwqWX4ePM7HJDymfMpYGKbIwN3s3sXEA9Dbw/viewform?embedded=true" target="_blank"><?php echo (qtranxf_getLanguage()=='th'?'แบบสอบถามความพึงพอใจที่มีต่อเว็บสาขาวิชาวิทยาการจัดการ':'School of Management Web Satisfaction'); ?></a></h4>
+			</div>
 		</div>
 	</div>
 </section>
